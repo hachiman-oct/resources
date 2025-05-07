@@ -18,8 +18,8 @@ a:hover {
 }
 
 /* 見出し */
-h1 {
-    display: none;
+section h1 {
+    display: none !important;
 }
 
 h2,
