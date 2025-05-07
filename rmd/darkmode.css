@@ -1,0 +1,68 @@
+/* 全体の背景と文字色 */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: sans-serif;
+}
+
+/* ヘッダー */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+}
+
+/* コードブロック */
+pre,
+code {
+    background-color: #1e1e1e !important;
+    color: #dcdcdc;
+    font-family: "Courier New", monospace;
+    padding: 0.3em 0.6em;
+    border-radius: 6px;
+}
+
+/* 表（table） */
+table,
+.Reactable {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #444;
+    padding: 0.5em;
+}
+
+th {
+    background-color: #2e2e2e;
+}
+
+/* リンク */
+a {
+    color: #80cbc4;
+}
+
+a:hover {
+    color: #4db6ac;
+}
+
+/* 引用（blockquotes） */
+blockquote {
+    background-color: #2c2c2c;
+    border-left: 4px solid #4db6ac;
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    color: #cccccc;
+}
+
+/* toc */
+.list-group-item {
+    background-color: #2c2c2c;
+}

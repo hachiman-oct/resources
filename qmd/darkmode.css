@@ -1,0 +1,93 @@
+/* 全体の背景と文字色 */
+body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* ヘッダー類 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+}
+
+/* リンク */
+a {
+    color: #80cbc4;
+}
+
+a:hover {
+    color: #4db6ac;
+    text-decoration: underline;
+}
+
+/* サイドバーや目次（floating toc） */
+#TOC,
+.tocify {
+    background-color: #2c2c2c;
+    color: #ffffff;
+    border: none;
+}
+
+#TOC a,
+.tocify a {
+    color: #ffffff;
+}
+
+#TOC a:hover,
+.tocify a:hover {
+    color: #80cbc4;
+}
+
+/* コードブロック背景・文字 */
+pre,
+code {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    font-family: 'Fira Code', monospace;
+}
+
+/* 表 */
+table {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #555;
+    padding: 6px 10px;
+}
+
+th {
+    background-color: #3a3a3a;
+}
+
+/* 警告・注意などのブロック */
+.alert,
+.callout {
+    background-color: #333;
+    border-left: 4px solid #80cbc4;
+    color: #e0e0e0;
+}
+
+/* Quartoのボタンやナビゲーション（必要に応じて） */
+button,
+.btn {
+    background-color: #444;
+    color: #fff;
+    border: none;
+}
+
+/* スクロールバー（オプション） */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+}
