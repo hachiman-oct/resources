@@ -1,5 +1,96 @@
-/* 全体の背景と文字色 */
+/* darkmode.css */
+
 body {
-    background-color: #1e1e1e !important;
-    color: #e0e0e0 !important;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+}
+
+/* リンク */
+a {
+    color: #569cd6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 見出し */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.2em;
+}
+
+/* コードブロック */
+pre,
+code {
+    background-color: #2d2d2d;
+    color: #c5c8c6;
+    font-family: "Fira Code", monospace;
+    border-radius: 4px;
+    padding: 0.3em 0.6em;
+}
+
+/* 表（table） */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+th,
+td {
+    border: 1px solid #444;
+    padding: 0.5em;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+td {
+    background-color: #2a2a2a;
+}
+
+/* 目次（TOC） */
+#TOC {
+    background-color: #2a2a2a;
+    padding: 1em;
+    border-radius: 8px;
+    color: #ccc;
+}
+
+#TOC a {
+    color: #9cdcfe;
+}
+
+#TOC a:hover {
+    color: #ffffff;
+}
+
+/* callouts */
+div.callout {
+    border-left: 4px solid #569cd6;
+    background-color: #252526;
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 6px;
+}
+
+/* ブロッククオート */
+blockquote {
+    border-left: 4px solid #888;
+    background-color: #2d2d2d;
+    padding: 0.5em 1em;
+    color: #ccc;
+    font-style: italic;
 }
