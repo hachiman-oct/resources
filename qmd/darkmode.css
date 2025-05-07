@@ -98,9 +98,12 @@ blockquote {
     font-style: italic;
 }
 
-/* モバイル時もTOCを非表示にしない */
+#toc-toggle {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
-    #TOC {
+    nav#TOC {
         display: block !important;
         position: fixed;
         top: 0;
@@ -115,11 +118,12 @@ blockquote {
         padding: 1em;
     }
 
-    #TOC.show {
+    nav#TOC.show {
         left: 0;
     }
 
     #toc-toggle {
+        display: block;
         position: fixed;
         top: 10px;
         left: 10px;
