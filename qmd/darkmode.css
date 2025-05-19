@@ -22,14 +22,46 @@ section h1 {
     display: none !important;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
+    font-size: 1.8rem;
     color: #ffffff;
-    border-bottom: 1px solid #444;
+    border-bottom: 2px solid #666;
+    padding-bottom: 0.3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #eeeeee;
+    border-bottom: 1px solid #555;
+    padding-bottom: 0.25em;
+    margin-top: 1.8em;
+    margin-bottom: 0.9em;
+}
+
+h4 {
+    font-size: 1.3rem;
+    color: #dddddd;
+    border-bottom: 1px dashed #444;
     padding-bottom: 0.2em;
+    margin-top: 1.6em;
+    margin-bottom: 0.8em;
+}
+
+h5 {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-top: 1.4em;
+    margin-bottom: 0.7em;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #bbbbbb;
+    font-style: italic;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
 }
 
 /* コードブロック */
