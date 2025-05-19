@@ -1,0 +1,42 @@
+//── カラーパレット
+$color-border-h2: #666;
+$color-border-h3: #555;
+$color-border-h4: #444;
+$color-border-h5: #333;
+$color-border-h6: #222;
+
+section h1 {
+    display: none !important;
+}
+
+//── 共通の見出し mixin
+@mixin heading-base($size, $color, $border-color, $indent, $style: solid) {
+    font-size: $size;
+    color: $color;
+    padding-left: $indent;
+    border-left: 4px $style $border-color;
+    margin-top: if($indent ==0, 2em, 1.2em);
+    margin-bottom: 0.8em;
+    padding-bottom: 0.2em;
+}
+
+//── 各見出しの定義
+h2 {
+    @include heading-base(1.8rem, #ffffff, $color-border-h2, 0.5rem);
+}
+
+h3 {
+    @include heading-base(1.5rem, #eeeeee, $color-border-h3, 0.75rem);
+}
+
+h4 {
+    @include heading-base(1.3rem, #dddddd, $color-border-h4, 1rem, dashed);
+}
+
+h5 {
+    @include heading-base(1.1rem, #cccccc, $color-border-h5, 1.5rem);
+}
+
+h6 {
+    @include heading-base(1rem, #bbbbbb, $color-border-h6, 2rem);
+}

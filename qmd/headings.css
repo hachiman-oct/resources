@@ -1,0 +1,55 @@
+section h1 {
+  display: none !important;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  padding-left: 0.5rem;
+  border-left: 4px solid #666;
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #eeeeee;
+  padding-left: 0.75rem;
+  border-left: 4px solid #555;
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.2em;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #dddddd;
+  padding-left: 1rem;
+  border-left: 4px dashed #444;
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.2em;
+}
+
+h5 {
+  font-size: 1.1rem;
+  color: #cccccc;
+  padding-left: 1.5rem;
+  border-left: 4px solid #333;
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.2em;
+}
+
+h6 {
+  font-size: 1rem;
+  color: #bbbbbb;
+  padding-left: 2rem;
+  border-left: 4px solid #222;
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.2em;
+}
+
+/*# sourceMappingURL=headings.css.map */
