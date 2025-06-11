@@ -1,0 +1,4 @@
+# SCSS・CSSマップ・VSCode設定を無視
+*.scss
+*.css.map
+.vscode/
